@@ -16,3 +16,12 @@ def favourite_book(title):
     print(f'my favorite book is {title}')
 
 favourite_book('The BFG')
+
+def listofnumbers(*numbers):
+    print((numbers))
+
+listofnumbers(4, 16, 24, 34, 63, 92, 81, 2, 104, 174,)
+
+def reversestrings(word):
+    print(word[:: -1])
+reversestrings('olleH')
